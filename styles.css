@@ -1,0 +1,47 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+ }
+
+header {
+    background-color: #7d0707;
+    text-align: center;
+}
+
+#valor-esfirra{
+    font-size: 20px;
+    color:#7d0707;
+    font-weight: bold;
+    text-align: center;
+    
+}
+h2 {
+    color: #7d0707; 
+    font-family: 'Marker Felt', fantasy;
+    margin-left: 20px;
+}
+
+section {
+    padding: 33x;
+    margin-top: 100px;
+}
+
+section p {
+    font-size: 1.5em; 
+    margin-left: 20px;
+}
+
+footer{
+    background-color: #7d0707;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: 80px;
+}
+div {
+    text-align: center;
+  }
+  
