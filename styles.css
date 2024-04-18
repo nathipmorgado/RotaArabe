@@ -10,13 +10,6 @@ header {
     text-align: center;
 }
 
-#valor-esfirra{
-    font-size: 20px;
-    color:#7d0707;
-    font-weight: bold;
-    text-align: center;
-    
-}
 h2 {
     color: #7d0707; 
     font-family: 'Marker Felt', fantasy;
@@ -44,4 +37,37 @@ footer{
 div {
     text-align: center;
   }
-  
+  form {
+    margin-left: 30px;
+    font-size: 1em; 
+}
+
+label {
+    display: block;
+    margin-bottom: 1px;
+    color: #7d0707;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #7d0707;
+    color: #fff;
+    border: none;
+    padding: 1px 20px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+input[type="submit"]:hover {
+    background-color: #7d0707;
+}
