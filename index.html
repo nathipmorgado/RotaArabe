@@ -58,23 +58,23 @@
         <h2>Contato</h2>
         <p>Estamos localizados na rua Francisco Bonini 139, Assis. <a href="https://www.google.com/maps/place/Francisco+Bonini+139/@-22.6434395,-50.4136065,3a,75y,197.47h,90t/data=!3m4!1e1!3m2!1sbY3BWMdBEIPmhYNJeLKlYQ!2e0!4m2!3m1!1s0x9495396dbc0ba013:0xeb82a4351aff6f69?sa=X&ved=1t:3780&ictx=111" target="_blank"><img src="localização.png" alt="Instagram" style="width: 30px; height: 30px;"></a></p>
         <p>Siga-nos no Instagram: <a href="https://www.instagram.com/" target="_blank"><img src="instagram-removebg-preview.png" alt="Instagram" style="width: 30px; height: 30px;"></a></p>
-<p>Contate-nos pelo WhatsApp: <a href="https://wa.me/xxxx" target="_blank"><img src="whats.png" alt="WhatsApp" style="width: 30px; height: 30px;"></a></p>
-        <form id="contactForm">
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" required><br><br>
+<form id="contactForm" action="https://wa.link/hyns0s?text=Olá, gostaria de entrar em contato." method="get" target="_blank">
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name" required><br><br>
             
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
 
-            <label for="phone">Contato:</label>
-            <input type="text" id="phone" name="phone"><br><br>
+    <label for="phone">Contato:</label>
+    <input type="text" id="phone" name="phone"><br><br>
 
+    <label for="subject">Assunto:</label><br>
+    <textarea id="subject" name="subject" rows="4" cols="50" required></textarea><br><br>
             
-            <label for="subject">Assunto:</label><br>
-            <textarea id="subject" name="subject" rows="4" cols="50" required></textarea><br><br>
-            
-            <input type="submit" value="Enviar">
-        </form>
+    <input type="submit" value="Enviar">
+      
+</form>
+
         <div id="response"></div>
     </section>
 
