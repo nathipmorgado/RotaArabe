@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     color: #000000;
+    text-align: center;
  }
 
 header {
@@ -14,6 +15,7 @@ h2 {
     color: #7d0707; 
     font-family: 'Marker Felt', fantasy;
     margin-left: 20px;
+    text-align: center;
 }
 
 section {
@@ -71,3 +73,24 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #7d0707;
 }
+
+
+ul {
+    text-align: center; 
+    padding: 0;
+    
+}
+ul li {
+    display: inline-block; 
+    margin-right: 30px; 
+    
+}
+ul li a {
+    display: inline-block; 
+    margin-right: 30px; 
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+
