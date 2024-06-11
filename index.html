@@ -12,6 +12,21 @@
 </head>
 
 <body>
+    <script>
+    
+        window.onload = function() {
+            var nome = prompt("Por favor, digite seu nome:");
+            if (nome != null && nome != "") {
+                exibirMensagem(nome);
+            }
+        };
+    
+        
+        function exibirMensagem(nome) {
+            alert("Seja bem-vindo, " + nome + "!");
+        }
+    </script>
+    
     <header class="text-center">
         <img src="/logo.png" alt="Logo da Rota Árabe" id="logo" class="img-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
